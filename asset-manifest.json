@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Machine-text/static/css/main.39da8f8a.css",
+    "main.js": "/Machine-text/static/js/main.92cf5c67.js",
+    "index.html": "/Machine-text/index.html",
+    "main.39da8f8a.css.map": "/Machine-text/static/css/main.39da8f8a.css.map",
+    "main.92cf5c67.js.map": "/Machine-text/static/js/main.92cf5c67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39da8f8a.css",
+    "static/js/main.92cf5c67.js"
+  ]
+}
