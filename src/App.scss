@@ -1,0 +1,77 @@
+$background:darkslategrey;
+
+.App{
+    font-variant: small-caps;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    color: $background;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.loading {
+    text-align: center;
+  }
+.header{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.select{
+    margin: 10px 20px;
+    text-align: center;
+    background-color:$background;
+    color: #ffffff;
+    width: 200px;
+    box-shadow: 2px 2px 3px $background;
+}
+
+.ProductsList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;   
+}
+.ProductsDetails{
+    width: 450px;
+    text-align: center;
+    font-variant: small-caps;
+    border: 1px solid lightcyan;
+    padding: 10px;
+    img{
+        width: 200px;
+        height: 250px;
+        margin-top: 20px;
+    }
+    .title,.price{
+        opacity: 0.8;
+    }
+    p{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+        .rating{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+.Pagination{
+   display: flex;
+   justify-content: center;
+    ul{
+        display: flex;
+        gap: 15px;
+        li{
+            list-style: none;
+        }
+           a{
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 2px 5px;
+            font-size: 15px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            background-color: $background;
+        }
+    }
+}
+
