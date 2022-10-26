@@ -13,9 +13,9 @@ const PaginationComponent = ({postsPerPage,totalPosts,paginate}) => {
             {
                 pageNumbers.map(number => (
                     <li key={number}>
-                        <a onClick={()=>paginate(number)} href='!#' className='page-link'>
+                        <h3 onClick={()=>paginate(number)} className='page-link'>
                             {number}
-                        </a>
+                        </h3>
                     </li>
                 ))
             }
